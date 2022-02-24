@@ -1,0 +1,44 @@
+/*background color body*/
+body {
+    background-color: hsl(212, 45%, 89%);
+    
+}
+/*color, size and position box*/
+.box {
+    width: 20em;
+    height: 30em;
+    background-color: hsl(0, 0%, 100%);
+    margin-top:200px;
+    margin-bottom: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px 15px 15px 15px;
+}
+/*size and position image code QR*/
+img {
+    max-width: 290px;
+    height: 290px;
+    border-radius: 15px 15px 15px 15px;
+    position: relative;
+    top: 15px; left: 15px;
+}
+
+/*color, size and position first text*/
+.improve {
+    font-size: 20px;
+    font-family: 'Outfit', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    color: hsl(218, 44%, 22%);
+    position: relative;
+    left: 1px; top: 10px;
+}
+/*color, size and position second text*/
+.scan {
+    font-size: 17px;
+    color: hsl(220, 15%, 55%);
+    font-weight: 400;
+    text-align: center;
+    position: relative;
+    left: 5px; top: 5px;
+}
